@@ -14,6 +14,7 @@ const GenreList = () => {
               src={getCroppedImageUrl(genre.image_background)}
               boxSize="32px"
               borderRadius={8}
+              objectFit={"cover"}
             />
             <Text fontSize="lg">{genre.name}</Text>
           </HStack>
