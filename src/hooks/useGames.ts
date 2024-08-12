@@ -16,10 +16,10 @@ export interface Game {
     metacritic: number;
   }
   
-  interface FetchGamesResponse {
-    count: number;
-    results: Game[];
-  }
+interface FetchGamesResponse {
+  count: number;
+  results: Game[];
+}
   
 const useGames = () => {
   const [games, setGames] = useState<Game[]>([]);
